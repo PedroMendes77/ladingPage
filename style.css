@@ -1,62 +1,75 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
 }
 
 header{
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #007BFF, #0056b3);
     border-bottom: #fff solid 1.5px;
 }
 
-.hero{
-    background: linear-gradient(135deg, #007bff, #0056b3);
+.hero {
+    background: linear-gradient(135deg, #007BFF, #0056b3);
     color: #fff;
 }
 
-.hero h2{
+.hero h2 {
     font-size: 2.5rem;
 }
 
-.hero p{
+.hero p {
     font-size: 1.2rem;
 }
 
-footer{
+footer {
     font-size: 0.9rem;
 }
 
-.card{
+/* Cards no carrossel */
+.card {
     border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card-title{
+.card-title {
     font-size: 1.25rem;
     font-weight: 600;
 }
 
-.card-text{
+.card-text {
     font-size: 1rem;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #007bff;
+/* Módulo carrossel */
+.carousel-inner .carousel-item {
+    text-align: center;
 }
 
-@media(max-width: 768px){
-    .hero h2{
+.carousel-control-prev, .carousel-control-next {
+    color: #007BFF;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007BFF;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero h2 {
         font-size: 2rem;
     }
 
-    .hero p{
+    .hero p {
         font-size: 1rem;
     }
 
-    .card-title{
+    .card-title {
         font-size: 1.125rem;
     }
 
-    .card-text{
-        font-size: 2.125rem;
+    .card-text {
+        font-size: 0.875rem;
     }
 }
+
+
